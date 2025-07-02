@@ -1,6 +1,6 @@
 {
     "name": "vildanbina/livewire-wizard-beta",
-    "description": "Laravel Livewire Wizard (Multi-Step Form) component",
+    "description": "Laravel Livewire Wizard (Multi-Step Form) component for Laravel 10/11/12",
     "keywords": [
         "laravel",
         "livewire",
@@ -21,7 +21,9 @@
         "php": "^8.1",
         "livewire/livewire": "^3.0",
         "spatie/laravel-package-tools": "^1.9",
-        "wireui/wireui": "^1.18"
+        "wireui/wireui": "^1.19",
+        "illuminate/support": "^10.0 || ^11.0 || ^12.0",
+        "illuminate/view": "^10.0 || ^11.0 || ^12.0"
     },
     "autoload": {
         "psr-4": {
